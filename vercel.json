@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "bun run build",
   "outputDirectory": "web-build",
-  "devCommand": "npm run start-web",
-  "installCommand": "npm install --legacy-peer-deps",
+  "devCommand": "bun run start-web",
+  "installCommand": "bun install",
   "framework": null,
   "rewrites": [
     {
